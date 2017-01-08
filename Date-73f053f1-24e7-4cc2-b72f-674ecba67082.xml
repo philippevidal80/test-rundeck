@@ -1,23 +1,23 @@
 <joblist>
   <job>
-    <description>Output hostname of server.</description>
+    <description>Print date of server</description>
     <executionEnabled>true</executionEnabled>
-    <id>eb016c7c-e5ef-49f8-84c2-7613ef5cc06d</id>
+    <id>73f053f1-24e7-4cc2-b72f-674ecba67082</id>
     <loglevel>INFO</loglevel>
-    <name>hostname</name>
+    <name>Date</name>
     <nodeFilterEditable>false</nodeFilterEditable>
     <scheduleEnabled>true</scheduleEnabled>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <description>Output hostname</description>
-        <exec>hostname -s</exec>
+        <description>output date from server.</description>
+        <exec>date</exec>
       </command>
       <pluginConfig>
         <WorkflowStrategy>
-          <node-first></node-first>
+          <node-first />
         </WorkflowStrategy>
       </pluginConfig>
     </sequence>
-    <uuid>eb016c7c-e5ef-49f8-84c2-7613ef5cc06d</uuid>
+    <uuid>73f053f1-24e7-4cc2-b72f-674ecba67082</uuid>
   </job>
 </joblist>
