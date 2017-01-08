@@ -1,0 +1,23 @@
+<joblist>
+  <job>
+    <description>Output hostname of server.</description>
+    <executionEnabled>true</executionEnabled>
+    <id>eb016c7c-e5ef-49f8-84c2-7613ef5cc06d</id>
+    <loglevel>INFO</loglevel>
+    <name>hostname</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <description>Output hostname</description>
+        <exec>hostname -s</exec>
+      </command>
+      <pluginConfig>
+        <WorkflowStrategy>
+          <node-first />
+        </WorkflowStrategy>
+      </pluginConfig>
+    </sequence>
+    <uuid>eb016c7c-e5ef-49f8-84c2-7613ef5cc06d</uuid>
+  </job>
+</joblist>
