@@ -14,7 +14,7 @@
       </command>
       <pluginConfig>
         <WorkflowStrategy>
-          <node-first />
+          <node-first></node-first>
         </WorkflowStrategy>
       </pluginConfig>
     </sequence>
