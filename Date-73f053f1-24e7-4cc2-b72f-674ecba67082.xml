@@ -1,0 +1,23 @@
+<joblist>
+  <job>
+    <description>Print date of server</description>
+    <executionEnabled>true</executionEnabled>
+    <id>73f053f1-24e7-4cc2-b72f-674ecba67082</id>
+    <loglevel>INFO</loglevel>
+    <name>Date</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <description>output date from server.</description>
+        <exec>date</exec>
+      </command>
+      <pluginConfig>
+        <WorkflowStrategy>
+          <node-first></node-first>
+        </WorkflowStrategy>
+      </pluginConfig>
+    </sequence>
+    <uuid>73f053f1-24e7-4cc2-b72f-674ecba67082</uuid>
+  </job>
+</joblist>
