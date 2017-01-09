@@ -10,7 +10,7 @@
     <sequence keepgoing='false' strategy='node-first'>
       <command>
         <description>Output hostname</description>
-        <exec>hostname -s</exec>
+        <exec>hostname</exec>
       </command>
       <pluginConfig>
         <WorkflowStrategy>
